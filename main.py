@@ -6,7 +6,7 @@ app = Flask(__name__)
 
 @app.route("/")
 def hello():
-    return "Hello World!"
+    return "Hello STEM!"
 
 @app.route("/index")
 def index():
@@ -14,4 +14,4 @@ def index():
 
 
 if __name__ == "__main__":
-    app.run(port=***YOUR_PORT***)
+    app.run(port=12345)
